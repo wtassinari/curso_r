@@ -1,0 +1,24 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Curso R Online"
+  description: "Programa de Pós-Graduação em Epidemiologia em Saúde Pública"
+  site-url: "https://seu-usuario.github.io/curso_r"
+  repo-url: "https://github.com/seu-usuario/curso_r"
+  navbar:
+    background: primary
+    left:
+      - href: index.qmd
+        text: Início
+  
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-title: "Índice"
+    number-sections: false
+    lang: pt-BR
+    mainfont: "Segoe UI"

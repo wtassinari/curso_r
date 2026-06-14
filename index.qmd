@@ -1,0 +1,197 @@
+---
+title: "Curso R Online"
+format: 
+  html:
+    page-layout: full
+    include-in-header:
+      - text: |
+          <script src="auth.js"></script>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+---
+
+```{=html}
+<!-- Header com Logos -->
+<div class="header-banner">
+  <div class="header-content">
+    <div class="logo-row">
+      <div class="logo-left">
+        <img src="logos/ensp_procc.png" alt="Logo ENSP/PROCC" />
+      </div>
+      <div class="header-center">
+        <div class="header-text">
+          <h1>Curso R Online</h1>
+          <h2>Programa de Pós-Graduação em Epidemiologia em Saúde Pública</h2>
+        </div>
+      </div>
+      <div class="logo-right">
+        <img src="logos/logo_procc_castelo.png" alt="Logo PROCC Castelo" />
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Seção Sobre o Criador - Simplificada -->
+<div class="about-creator">
+  <div class="creator-bio">
+    <p><strong>Prof. Oswaldo Gonçalves Cruz</strong> é docente permanente do Programa de Pós-Graduação em Epidemiologia e Saúde Pública da ENSP/FIOCRUZ e membro do Departamento de Computação Científica (PROCC) da Fundação Oswaldo Cruz. Foi também membro permanente do Programa de Biologia Computacional do IOC/FIOCRUZ.</p>
+    
+    <p>Suas principais áreas de atuação incluem análise de dados espaciais, vigilância epidemiológica, análise espaço-temporal, violência, métodos de análise de microáreas, mineração de dados e bioestatística. O Prof. Oswaldo dedica-se ao ensino e pesquisa em computação científica aplicada à saúde pública, contribuindo significativamente para a formação de profissionais na área de epidemiologia.</p>
+  </div>
+</div>
+```
+
+```{=html}
+<!-- Proteção por Senha -->
+<div id="password-container">
+  <h3><i class="fas fa-lock"></i> Acesso Restrito</h3>
+  <p>Por favor, insira a senha para acessar as videoaulas do curso.</p>
+  <input type="password" id="password-input" placeholder="Digite a senha..." />
+  <button id="submit-btn"><i class="fas fa-sign-in-alt"></i> Acessar</button>
+  <p id="error-message"><i class="fas fa-exclamation-circle"></i> Senha incorreta. Tente novamente.</p>
+</div>
+
+<!-- Conteúdo Protegido -->
+<div id="protected-content">
+
+<div class="content-intro">
+  <h2><i class="fas fa-book"></i> Conteúdo do Curso</h2>
+  <p>O Curso está dividido em aulas de no máximo 15 minutos, permitindo um aprendizado progressivo e flexível!</p>
+  <p><strong>Antes de mais nada</strong> você deve assistir a aula de apresentação e em seguida as aulas de como instalar o <strong>R</strong> e o <strong>RStudio</strong>.</p>
+  <p>Após ter seu ambiente devidamente configurado, siga as instruções de cada vídeo e procure ir acompanhando e reproduzindo os comandos apresentados. Caso o andamento da aula esteja muito rápido, você pode retornar ou pausar o vídeo quando e quantas vezes quiser.</p>
+  <p><strong>Dica:</strong> Não se esqueça de verificar a sessão "Conteúdos" em cada vídeo para instruções, links, bibliografia sugerida e muito mais!</p>
+</div>
+
+---
+
+## Aulas Disponíveis
+
+<div class="video-card">
+  <h3>Apresentação do Curso</h3>
+  <p>Vídeo de introdução ao curso de R, apresentando a metodologia, objetivos e estrutura das aulas.</p>
+  <!-- SUBSTITUA O '#' PELO LINK DO GOOGLE DRIVE -->
+  <a href="#" class="download-btn" target="_blank"><i class="fas fa-download"></i> Baixar Vídeo</a>
+</div>
+
+<div class="video-card">
+  <h3>Instalação R & RStudio</h3>
+  <p>Guia passo a passo para instalação do ambiente R e RStudio no seu computador.</p>
+  <!-- SUBSTITUA O '#' PELO LINK DO GOOGLE DRIVE -->
+  <a href="#" class="download-btn" target="_blank"><i class="fas fa-download"></i> Baixar Vídeo</a>
+</div>
+
+<div class="video-card">
+  <h3>Aula 1 - Introdução ao R</h3>
+  <p>Primeiros passos com a linguagem R e interface do RStudio. Conceitos fundamentais e primeiros comandos.</p>
+  <!-- SUBSTITUA O '#' PELO LINK DO GOOGLE DRIVE -->
+  <a href="#" class="download-btn" target="_blank"><i class="fas fa-download"></i> Baixar Vídeo</a>
+</div>
+
+<div class="video-card">
+  <h3>Aula 2 - R como Calculadora</h3>
+  <p>Operações matemáticas básicas e uso do R como uma calculadora avançada com funções especializadas.</p>
+  <!-- SUBSTITUA O '#' PELO LINK DO GOOGLE DRIVE -->
+  <a href="#" class="download-btn" target="_blank"><i class="fas fa-download"></i> Baixar Vídeo</a>
+</div>
+
+<div class="video-card">
+  <h3>Aula 3 - Obtendo Ajuda</h3>
+  <p>Como utilizar o sistema de ajuda integrado do R para aprender sobre funções, pacotes e resolver dúvidas.</p>
+  <!-- SUBSTITUA O '#' PELO LINK DO GOOGLE DRIVE -->
+  <a href="#" class="download-btn" target="_blank"><i class="fas fa-download"></i> Baixar Vídeo</a>
+</div>
+
+<div class="video-card">
+  <h3>Aula 4 - Objetos</h3>
+  <p>Conceito fundamental de objetos no R, atribuição de valores, tipos básicos e nomenclatura.</p>
+  <!-- SUBSTITUA O '#' PELO LINK DO GOOGLE DRIVE -->
+  <a href="#" class="download-btn" target="_blank"><i class="fas fa-download"></i> Baixar Vídeo</a>
+</div>
+
+<div class="video-card">
+  <h3>Aula 5 - Gerenciando Objetos</h3>
+  <p>Como listar, remover e gerenciar os objetos no seu ambiente de trabalho (Workspace).</p>
+  <!-- SUBSTITUA O '#' PELO LINK DO GOOGLE DRIVE -->
+  <a href="#" class="download-btn" target="_blank"><i class="fas fa-download"></i> Baixar Vídeo</a>
+</div>
+
+<div class="video-card">
+  <h3>Aula 6a - Vetores parte I</h3>
+  <p>Criação e manipulação de vetores numéricos, de caracteres e lógicos. Estrutura fundamental de dados.</p>
+  <!-- SUBSTITUA O '#' PELO LINK DO GOOGLE DRIVE -->
+  <a href="#" class="download-btn" target="_blank"><i class="fas fa-download"></i> Baixar Vídeo</a>
+</div>
+
+<div class="video-card">
+  <h3>Aula 6b - Vetores parte II</h3>
+  <p>Operações com vetores, indexação, extração de elementos e operações vetorizadas.</p>
+  <!-- SUBSTITUA O '#' PELO LINK DO GOOGLE DRIVE -->
+  <a href="#" class="download-btn" target="_blank"><i class="fas fa-download"></i> Baixar Vídeo</a>
+</div>
+
+<div class="video-card">
+  <h3>Aula 7 - Fatores e Datas</h3>
+  <p>Trabalhando com variáveis categóricas (fatores), níveis e manipulação de datas no R.</p>
+  <!-- SUBSTITUA O '#' PELO LINK DO GOOGLE DRIVE -->
+  <a href="#" class="download-btn" target="_blank"><i class="fas fa-download"></i> Baixar Vídeo</a>
+</div>
+
+<div class="video-card">
+  <h3>Aula 8a - Matrizes parte I</h3>
+  <p>Criação e propriedades de matrizes (estruturas bidimensionais) e operações básicas.</p>
+  <!-- SUBSTITUA O '#' PELO LINK DO GOOGLE DRIVE -->
+  <a href="#" class="download-btn" target="_blank"><i class="fas fa-download"></i> Baixar Vídeo</a>
+</div>
+
+<div class="video-card">
+  <h3>Aula 8b - Matrizes parte II</h3>
+  <p>Operações matriciais avançadas, álgebra linear e indexação em matrizes.</p>
+  <!-- SUBSTITUA O '#' PELO LINK DO GOOGLE DRIVE -->
+  <a href="#" class="download-btn" target="_blank"><i class="fas fa-download"></i> Baixar Vídeo</a>
+</div>
+
+<div class="video-card">
+  <h3>Aula 9a - Dataframes parte I</h3>
+  <p>Introdução aos dataframes, a estrutura de dados mais importante para análise estatística e manipulação de dados.</p>
+  <!-- SUBSTITUA O '#' PELO LINK DO GOOGLE DRIVE -->
+  <a href="#" class="download-btn" target="_blank"><i class="fas fa-download"></i> Baixar Vídeo</a>
+</div>
+
+<div class="video-card">
+  <h3>Aula 9b - Dataframes parte II</h3>
+  <p>Manipulação avançada de dataframes, seleção de colunas, filtros, ordenação e transformação de dados.</p>
+  <!-- SUBSTITUA O '#' PELO LINK DO GOOGLE DRIVE -->
+  <a href="#" class="download-btn" target="_blank"><i class="fas fa-download"></i> Baixar Vídeo</a>
+</div>
+
+<div class="video-card">
+  <h3>Aula 10 - Listas</h3>
+  <p>Criação e uso de listas para armazenar objetos de diferentes tipos e tamanhos de forma flexível.</p>
+  <!-- SUBSTITUA O '#' PELO LINK DO GOOGLE DRIVE -->
+  <a href="#" class="download-btn" target="_blank"><i class="fas fa-download"></i> Baixar Vídeo</a>
+</div>
+
+<div class="video-card">
+  <h3>Aula 11a - Importando Dados Parte I</h3>
+  <p>Como ler arquivos de texto (.csv, .txt) para dentro do R e preparar dados para análise.</p>
+  <!-- SUBSTITUA O '#' PELO LINK DO GOOGLE DRIVE -->
+  <a href="#" class="download-btn" target="_blank"><i class="fas fa-download"></i> Baixar Vídeo</a>
+</div>
+
+<div class="video-card">
+  <h3>Aula 11b - Importando Dados Parte II</h3>
+  <p>Importação de dados de outros formatos (Excel, SPSS, etc) e uso de pacotes auxiliares especializados.</p>
+  <!-- SUBSTITUA O '#' PELO LINK DO GOOGLE DRIVE -->
+  <a href="#" class="download-btn" target="_blank"><i class="fas fa-download"></i> Baixar Vídeo</a>
+</div>
+
+---
+
+<footer>
+  <p><strong>Curso de R Online - 2026</strong></p>
+  <p>Prof. Oswaldo Gonçalves Cruz | Departamento de Computação Científica (PROCC)</p>
+  <p>Programa de Pós-Graduação em Epidemiologia em Saúde Pública | ENSP/FIOCRUZ</p>
+  <p><small>© Todos os direitos reservados</small></p>
+</footer>
+
+</div>
+```

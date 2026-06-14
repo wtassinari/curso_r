@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "SETUP.html",
+    "href": "SETUP.html",
+    "title": "Guia de Setup - Curso R Online",
+    "section": "",
+    "text": "Git instalado\nConta no GitHub\nQuarto CLI (opcional, para desenvolvimento local)\n\n\n\n\n\n\n\nAcesse https://github.com/new\nNome do repositório: curso_r\nDescrição: “Site de videoaulas de R - Prof. Oswaldo Gonçalves Cruz”\nEscolha “Private” ou “Public” conforme preferência\nClique em “Create repository”\n\n\n\n\ncd /home/ubuntu/curso_r_quarto\n\n# Renomear branch para 'main' (se necessário)\ngit branch -M main\n\n# Adicionar o repositório remoto\ngit remote add origin https://github.com/SEU-USUARIO/curso_r.git\n\n# Fazer push dos arquivos\ngit push -u origin main\n\n\n\n\nAcesse o repositório no GitHub\nVá para Settings → Pages\nEm “Build and deployment”:\n\nSource: “Deploy from a branch”\nBranch: main\nFolder: /docs\n\nClique em “Save”\n\nO site estará disponível em: https://seu-usuario.github.io/curso_r\n\n\n\n\n\nAbra o arquivo index.qmd em um editor de texto\nProcure pelas linhas com &lt;!-- SUBSTITUA O '#' PELO LINK DO GOOGLE DRIVE --&gt;\nSubstitua o # pelo link de compartilhamento do Google Drive\n\n\n\nPara um arquivo no Google Drive com ID 1a2b3c4d5e6f7g8h9i0j, use:\nhttps://drive.google.com/uc?export=download&id=1a2b3c4d5e6f7g8h9i0j\nOu para compartilhamento direto:\nhttps://drive.google.com/file/d/1a2b3c4d5e6f7g8h9i0j/view?usp=sharing\n\n\n\n\nApós fazer alterações:\n# Renderizar o site (gera os arquivos em /docs)\nquarto render\n\n# Adicionar as mudanças\ngit add .\n\n# Fazer commit\ngit commit -m \"Descrição das mudanças\"\n\n# Fazer push\ngit push origin main\n\n\n\nPara alterar a senha de acesso ao site:\n\nAbra o arquivo auth.js\nProcure pela linha: const correctPassword = 'cursor2026#';\nSubstitua 'cursor2026#' pela nova senha desejada\nSalve o arquivo\nFaça commit e push das mudanças\n\n\n\n\nPara mais informações sobre Quarto, visite: https://quarto.org/\n\nCriado em: 2026"
+  },
+  {
+    "objectID": "SETUP.html#pré-requisitos",
+    "href": "SETUP.html#pré-requisitos",
+    "title": "Guia de Setup - Curso R Online",
+    "section": "",
+    "text": "Git instalado\nConta no GitHub\nQuarto CLI (opcional, para desenvolvimento local)"
+  },
+  {
+    "objectID": "SETUP.html#passos-para-publicar-no-github-pages",
+    "href": "SETUP.html#passos-para-publicar-no-github-pages",
+    "title": "Guia de Setup - Curso R Online",
+    "section": "",
+    "text": "Acesse https://github.com/new\nNome do repositório: curso_r\nDescrição: “Site de videoaulas de R - Prof. Oswaldo Gonçalves Cruz”\nEscolha “Private” ou “Public” conforme preferência\nClique em “Create repository”\n\n\n\n\ncd /home/ubuntu/curso_r_quarto\n\n# Renomear branch para 'main' (se necessário)\ngit branch -M main\n\n# Adicionar o repositório remoto\ngit remote add origin https://github.com/SEU-USUARIO/curso_r.git\n\n# Fazer push dos arquivos\ngit push -u origin main\n\n\n\n\nAcesse o repositório no GitHub\nVá para Settings → Pages\nEm “Build and deployment”:\n\nSource: “Deploy from a branch”\nBranch: main\nFolder: /docs\n\nClique em “Save”\n\nO site estará disponível em: https://seu-usuario.github.io/curso_r"
+  },
+  {
+    "objectID": "SETUP.html#adicionar-links-dos-vídeos",
+    "href": "SETUP.html#adicionar-links-dos-vídeos",
+    "title": "Guia de Setup - Curso R Online",
+    "section": "",
+    "text": "Abra o arquivo index.qmd em um editor de texto\nProcure pelas linhas com &lt;!-- SUBSTITUA O '#' PELO LINK DO GOOGLE DRIVE --&gt;\nSubstitua o # pelo link de compartilhamento do Google Drive\n\n\n\nPara um arquivo no Google Drive com ID 1a2b3c4d5e6f7g8h9i0j, use:\nhttps://drive.google.com/uc?export=download&id=1a2b3c4d5e6f7g8h9i0j\nOu para compartilhamento direto:\nhttps://drive.google.com/file/d/1a2b3c4d5e6f7g8h9i0j/view?usp=sharing"
+  },
+  {
+    "objectID": "SETUP.html#atualizar-o-site",
+    "href": "SETUP.html#atualizar-o-site",
+    "title": "Guia de Setup - Curso R Online",
+    "section": "",
+    "text": "Após fazer alterações:\n# Renderizar o site (gera os arquivos em /docs)\nquarto render\n\n# Adicionar as mudanças\ngit add .\n\n# Fazer commit\ngit commit -m \"Descrição das mudanças\"\n\n# Fazer push\ngit push origin main"
+  },
+  {
+    "objectID": "SETUP.html#alterar-a-senha",
+    "href": "SETUP.html#alterar-a-senha",
+    "title": "Guia de Setup - Curso R Online",
+    "section": "",
+    "text": "Para alterar a senha de acesso ao site:\n\nAbra o arquivo auth.js\nProcure pela linha: const correctPassword = 'cursor2026#';\nSubstitua 'cursor2026#' pela nova senha desejada\nSalve o arquivo\nFaça commit e push das mudanças"
+  },
+  {
+    "objectID": "SETUP.html#suporte",
+    "href": "SETUP.html#suporte",
+    "title": "Guia de Setup - Curso R Online",
+    "section": "",
+    "text": "Para mais informações sobre Quarto, visite: https://quarto.org/\n\nCriado em: 2026"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Curso R Online",
+    "section": "",
+    "text": "Curso R Online\n          Programa de Pós-Graduação em Epidemiologia em Saúde Pública\n        \n      \n      \n        \n      \n    \n  \n\n\n\n\n  \n    Prof. Oswaldo Gonçalves Cruz é docente permanente do Programa de Pós-Graduação em Epidemiologia e Saúde Pública da ENSP/FIOCRUZ e membro do Departamento de Computação Científica (PROCC) da Fundação Oswaldo Cruz. Foi também membro permanente do Programa de Biologia Computacional do IOC/FIOCRUZ.\n    \n    Suas principais áreas de atuação incluem análise de dados espaciais, vigilância epidemiológica, análise espaço-temporal, violência, métodos de análise de microáreas, mineração de dados e bioestatística. O Prof. Oswaldo dedica-se ao ensino e pesquisa em computação científica aplicada à saúde pública, contribuindo significativamente para a formação de profissionais na área de epidemiologia.\n  \n\n\n\n   Acesso Restrito\n  Por favor, insira a senha para acessar as videoaulas do curso.\n  \n   Acessar\n   Senha incorreta. Tente novamente.\n\n\n\n\n\n\n   Conteúdo do Curso\n  O Curso está dividido em aulas de no máximo 15 minutos, permitindo um aprendizado progressivo e flexível!\n  Antes de mais nada você deve assistir a aula de apresentação e em seguida as aulas de como instalar o R e o RStudio.\n  Após ter seu ambiente devidamente configurado, siga as instruções de cada vídeo e procure ir acompanhando e reproduzindo os comandos apresentados. Caso o andamento da aula esteja muito rápido, você pode retornar ou pausar o vídeo quando e quantas vezes quiser.\n  Dica: Não se esqueça de verificar a sessão \"Conteúdos\" em cada vídeo para instruções, links, bibliografia sugerida e muito mais!\n\n\n---\n\n## Aulas Disponíveis\n\n\n  Apresentação do Curso\n  Vídeo de introdução ao curso de R, apresentando a metodologia, objetivos e estrutura das aulas.\n  \n   Baixar Vídeo\n\n\n\n  Instalação R & RStudio\n  Guia passo a passo para instalação do ambiente R e RStudio no seu computador.\n  \n   Baixar Vídeo\n\n\n\n  Aula 1 - Introdução ao R\n  Primeiros passos com a linguagem R e interface do RStudio. Conceitos fundamentais e primeiros comandos.\n  \n   Baixar Vídeo\n\n\n\n  Aula 2 - R como Calculadora\n  Operações matemáticas básicas e uso do R como uma calculadora avançada com funções especializadas.\n  \n   Baixar Vídeo\n\n\n\n  Aula 3 - Obtendo Ajuda\n  Como utilizar o sistema de ajuda integrado do R para aprender sobre funções, pacotes e resolver dúvidas.\n  \n   Baixar Vídeo\n\n\n\n  Aula 4 - Objetos\n  Conceito fundamental de objetos no R, atribuição de valores, tipos básicos e nomenclatura.\n  \n   Baixar Vídeo\n\n\n\n  Aula 5 - Gerenciando Objetos\n  Como listar, remover e gerenciar os objetos no seu ambiente de trabalho (Workspace).\n  \n   Baixar Vídeo\n\n\n\n  Aula 6a - Vetores parte I\n  Criação e manipulação de vetores numéricos, de caracteres e lógicos. Estrutura fundamental de dados.\n  \n   Baixar Vídeo\n\n\n\n  Aula 6b - Vetores parte II\n  Operações com vetores, indexação, extração de elementos e operações vetorizadas.\n  \n   Baixar Vídeo\n\n\n\n  Aula 7 - Fatores e Datas\n  Trabalhando com variáveis categóricas (fatores), níveis e manipulação de datas no R.\n  \n   Baixar Vídeo\n\n\n\n  Aula 8a - Matrizes parte I\n  Criação e propriedades de matrizes (estruturas bidimensionais) e operações básicas.\n  \n   Baixar Vídeo\n\n\n\n  Aula 8b - Matrizes parte II\n  Operações matriciais avançadas, álgebra linear e indexação em matrizes.\n  \n   Baixar Vídeo\n\n\n\n  Aula 9a - Dataframes parte I\n  Introdução aos dataframes, a estrutura de dados mais importante para análise estatística e manipulação de dados.\n  \n   Baixar Vídeo\n\n\n\n  Aula 9b - Dataframes parte II\n  Manipulação avançada de dataframes, seleção de colunas, filtros, ordenação e transformação de dados.\n  \n   Baixar Vídeo\n\n\n\n  Aula 10 - Listas\n  Criação e uso de listas para armazenar objetos de diferentes tipos e tamanhos de forma flexível.\n  \n   Baixar Vídeo\n\n\n\n  Aula 11a - Importando Dados Parte I\n  Como ler arquivos de texto (.csv, .txt) para dentro do R e preparar dados para análise.\n  \n   Baixar Vídeo\n\n\n\n  Aula 11b - Importando Dados Parte II\n  Importação de dados de outros formatos (Excel, SPSS, etc) e uso de pacotes auxiliares especializados.\n  \n   Baixar Vídeo\n\n\n---\n\n\n  Curso de R Online - 2026\n  Prof. Oswaldo Gonçalves Cruz | Departamento de Computação Científica (PROCC)\n  Programa de Pós-Graduação em Epidemiologia em Saúde Pública | ENSP/FIOCRUZ\n  © Todos os direitos reservados"
+  }
+]
