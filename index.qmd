@@ -15,7 +15,7 @@ format:
   <div class="header-content">
     <div class="logo-row">
       <div class="logo-left">
-        <img src="logos/ensp_procc.png" alt="Logo ENSP/PROCC" />
+        <img src="logos/logo_procc_castelo.png" alt="Logo PROCC Castelo" />
       </div>
       <div class="header-center">
         <div class="header-text">
@@ -24,7 +24,7 @@ format:
         </div>
       </div>
       <div class="logo-right">
-        <img src="logos/logo_procc_castelo.png" alt="Logo PROCC Castelo" />
+        <img src="logos/ensp_procc.png" alt="Logo ENSP/PROCC" />
       </div>
     </div>
   </div>
@@ -33,9 +33,7 @@ format:
 <!-- Seção Sobre o Criador - Simplificada -->
 <div class="about-creator">
   <div class="creator-bio">
-    <p><strong>Prof. Oswaldo Gonçalves Cruz</strong> é docente permanente do Programa de Pós-Graduação em Epidemiologia e Saúde Pública da ENSP/FIOCRUZ e membro do Departamento de Computação Científica (PROCC) da Fundação Oswaldo Cruz. Foi também membro permanente do Programa de Biologia Computacional do IOC/FIOCRUZ.</p>
-    
-    <p>Suas principais áreas de atuação incluem análise de dados espaciais, vigilância epidemiológica, análise espaço-temporal, violência, métodos de análise de microáreas, mineração de dados e bioestatística. O Prof. Oswaldo dedica-se ao ensino e pesquisa em computação científica aplicada à saúde pública, contribuindo significativamente para a formação de profissionais na área de epidemiologia.</p>
+    <p>Este curso foi desenvolvido pelo <strong>pesquisador Dr. Oswaldo Gonçalves Cruz</strong>, que é docente permanente do Programa de Pós-Graduação em Epidemiologia e Saúde Pública da ENSP/FIOCRUZ e membro do Departamento de Computação Científica (PROCC) da Fundação Oswaldo Cruz. Suas principais áreas de atuação incluem análise de dados espaciais, vigilância epidemiológica, análise espaço-temporal, violência, métodos de análise de microáreas, mineração de dados e bioestatística. O Prof. Oswaldo dedica-se ao ensino e pesquisa em computação científica aplicada à saúde pública, contribuindo significativamente para a formação de profissionais na área de epidemiologia.</p>
   </div>
 </div>
 ```
@@ -60,10 +58,6 @@ format:
   <p>Após ter seu ambiente devidamente configurado, siga as instruções de cada vídeo e procure ir acompanhando e reproduzindo os comandos apresentados. Caso o andamento da aula esteja muito rápido, você pode retornar ou pausar o vídeo quando e quantas vezes quiser.</p>
   <p><strong>Dica:</strong> Não se esqueça de verificar a sessão "Conteúdos" em cada vídeo para instruções, links, bibliografia sugerida e muito mais!</p>
 </div>
-
----
-
-## Aulas Disponíveis
 
 <div class="video-card">
   <h3>Apresentação do Curso</h3>
