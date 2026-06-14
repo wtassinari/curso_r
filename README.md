@@ -13,7 +13,8 @@ curso_r/
 ├── _quarto.yml          # Configuração do site Quarto
 ├── index.qmd            # Página principal com todas as aulas
 ├── styles.css           # Estilos personalizados
-├── auth.js              # Script de autenticação por senha
+├── auth.js              # ⚠️ Script de autenticação (NÃO rastreado - local apenas)
+├── auth.js.example      # Template do auth.js para referência
 ├── logos/               # Logos e imagens do PROCC/ENSP
 ├── docs/                # Saída HTML gerada (publicada no GitHub Pages)
 ├── .gitignore           # Arquivos ignorados pelo Git
@@ -48,13 +49,33 @@ Exemplo:
 
 ## Proteção por Senha
 
-O site possui proteção por senha para acessar os links de download dos vídeos. A senha padrão é: **cursor2026#**
+O site possui proteção por senha para acessar os links de download dos vídeos.
 
-Para alterar a senha, edite o arquivo `auth.js` e modifique a variável `correctPassword`:
+### ⚠️ Segurança - Importante!
+
+**O arquivo `auth.js` contém a senha e NÃO deve ser enviado para o GitHub!**
+
+1. O arquivo `auth.js` está no `.gitignore` e não será rastreado pelo Git
+2. Use o arquivo `auth.js.example` como template
+3. Para configurar localmente:
+   - Copie `auth.js.example` para `auth.js`
+   - Edite `auth.js` e substitua `'sua_senha_aqui'` pela senha desejada
+   - Nunca faça commit do `auth.js` com a senha real!
+
+### Alterar a Senha
+
+Edite o arquivo `auth.js` (local apenas) e modifique a variável `correctPassword`:
 
 ```javascript
-const correctPassword = 'nova-senha-aqui';
+const correctPassword = 'sua_nova_senha';
 ```
+
+### Para Colaboradores
+
+Se outras pessoas forem trabalhar neste projeto:
+1. Elas devem copiar `auth.js.example` para `auth.js`
+2. Solicitar a senha ao administrador do projeto
+3. Atualizar o `auth.js` local com a senha correta
 
 ## Publicar no GitHub Pages
 

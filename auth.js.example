@@ -1,0 +1,39 @@
+document.addEventListener('DOMContentLoaded', function() {
+    const passwordContainer = document.getElementById('password-container');
+    const protectedContent = document.getElementById('protected-content');
+    const passwordInput = document.getElementById('password-input');
+    const submitBtn = document.getElementById('submit-btn');
+    const errorMessage = document.getElementById('error-message');
+
+    // ⚠️ IMPORTANTE: Substitua 'sua_senha_aqui' pela senha desejada
+    // NUNCA faça commit do arquivo auth.js com a senha real no GitHub!
+    // Este arquivo deve estar no .gitignore
+    const correctPassword = 'sua_senha_aqui';
+
+    // Check if user already authenticated in this session
+    if (sessionStorage.getItem('authenticated') === 'true') {
+        passwordContainer.style.display = 'none';
+        protectedContent.style.display = 'block';
+    }
+
+    function checkPassword() {
+        if (passwordInput.value === correctPassword) {
+            sessionStorage.setItem('authenticated', 'true');
+            passwordContainer.style.display = 'none';
+            protectedContent.style.display = 'block';
+            errorMessage.style.display = 'none';
+        } else {
+            errorMessage.style.display = 'block';
+            passwordInput.value = '';
+            passwordInput.focus();
+        }
+    }
+
+    submitBtn.addEventListener('click', checkPassword);
+
+    passwordInput.addEventListener('keypress', function(e) {
+        if (e.key === 'Enter') {
+            checkPassword();
+        }
+    });
+});
